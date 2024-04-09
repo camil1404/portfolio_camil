@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portofolio</title>
+  </head>
+  <body id="mainPage">
+    <main id="frontPage">
+      <nav class="navbar">
+        <a href="#" class="logo">CAMIL</a>
+        <div class="nav-links">
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#myWork">My work</a></li>
+            <li><a href="#">Coding</a></li>
+            <li><a href="#">Design</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h2>HI, I'M CAMIL</h2>
+      <div class="container">
+        <h1>I LOVE <span class="auto-type"></span></h1>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["CODING", "Web-Design", "PLANES", "TRAVELLING"],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true,
+        });
+      </script>
+      <div class="containerscroll">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <span class="textscroll">Scroll down</span>
+      </div>
+      <div class="landing" id="aboutMe">
+        <img class="profilepic" src="./images/Profilepic.jpg" />
+        <div class="aboutmetext">
+          <h3>About me</h3>
+          <p>
+            Hi! My name is Camil Gilliad, and I am currently in my second year
+            as a Communication and Multimedia Design (CMD) student at the
+            Amsterdam University of Applied Sciences. My studies in CMD merge my
+            two greatest passions: coding and designing engaging websites and
+            apps.
+          </p>
+          <p>
+            Within CMD, we not only learn how to make websites user-friendly but
+            also how to aesthetically craft them. It's fascinating to explore
+            how design and functionality go hand in hand to create a seamless
+            user experience.
+          </p>
+          <p>
+            I am driven to further develop my skills and grow in the field of
+            front-end development. I am familiar with using HTML, CSS,
+            JavaScript and REACT.
+          </p>
+        </div>
+      </div>
+      <div class="secondpart">
+        <div class="educatie">
+          <img class="brein" src="./images/brain-8-svgrepo-com.svg" />
+          <div class="textschool">
+            <h3>Education</h3>
+            <p>
+              i'm currently studying communication multimediadesign. My previous
+              school and certificates: VMBO-T and MBO Software development
+            </p>
+          </div>
+        </div>
+      </div>
+      <section id="myWork">
+        <h2>MY WORK</h2>
+        <ul>
+          <li>
+            <a href="./ootje.html">
+              <img src="./images/ootjelogo.png" />
+              <p>See More</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="./777x.html">
+              <img src="./images/777x.jpeg" />
+              <p>See More</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./images/gameSphere.png" />
+              <p>Coming Soon</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./images/code.jpeg" />
+              <p>W.I.P</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
